@@ -190,7 +190,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© Team Oreo"
+    help_ += "\n© @OreoSupportChat"
     buttons = []
     if inline_pic():
         data = f"sndplug_{key}_{file}"
@@ -395,7 +395,7 @@ async def ibuild(e):
                             _pic,
                             title="OreO Op",
                             text=txt,
-                            description="Team OreO",
+                            description="@OreOSupportChat",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -411,7 +411,7 @@ async def ibuild(e):
                         title="OreO Op",
                         type=_type,
                         text=txt,
-                        description="Team OreO",
+                        description="@OreoSupportChat",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
