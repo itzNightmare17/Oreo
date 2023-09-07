@@ -287,7 +287,7 @@ async def inline_alive(ore):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="Team OreO",
+                        description="@OreoSupportChat",
                         parse_mode="html",
                         buttons=buttons,
                     )
