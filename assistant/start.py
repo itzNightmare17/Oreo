@@ -25,7 +25,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Oreo [v{oreo_version}](https://github.com/itzNightmare17/OREO), powered by @TeamOreo**
+**Oreo [v{oreo_version}](https://github.com/itzNightmare17/OREO), powered by @bad_Oreo**
 """
 
 
@@ -64,7 +64,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(oreo_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@Teamoreo**"
+        msg += "\n\n• Powered by **@bad_oreo**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
