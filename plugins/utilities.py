@@ -699,7 +699,7 @@ async def get_restriced_msg(event):
     chat, msg = get_chat_and_msgid(match)
     if not (chat and msg):
         return await event.eor(
-            f"{get_string('gms_1')}!\nEg: `https://t.me/TeamOreo/3 or `https://t.me/c/1313492028/3`"
+            f"{get_string('gms_1')}!\nEg: `https://t.me/OreoUpdates/4` or `https://t.me/c/1944665863/4`"
         )
     try:
         message = await event.client.get_messages(chat, ids=msg)
