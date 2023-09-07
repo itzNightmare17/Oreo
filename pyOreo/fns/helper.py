@@ -165,7 +165,7 @@ if run_as_module:
             output = "**Plugin** - `{}`\n".format(plug)
             for i in HELP[plug]:
                 output += i
-            output += "\n© @TeamOreo"
+            output += "\n© @bad_OreO"
             await eod(ok, f"✓ `Oreo - Installed`: `{plug}` ✓\n\n{output}")
         elif plug in CMD_HELP:
             output = f"Plugin Name-{plug}\n\n✘ Commands Available-\n\n"
