@@ -8,3 +8,4 @@ hiredis
 async-timeout>=4.0.2
 speedtest-cli
 pillow==9.3
+pytgcalls==3.0.0.dev24
