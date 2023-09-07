@@ -42,19 +42,19 @@ async def _help(ore):
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["Official"][plug]:
                     output += i
-                output += "\n© @Teamoreo"
+                output += "\n© @OreoSupportChat"
                 await ore.eor(output)
             elif HELP.get("Addons") and plug in HELP["Addons"]:
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["Addons"][plug]:
                     output += i
-                output += "\n© @Teamoreo"
+                output += "\n© @OreoSupportChat"
                 await ore.eor(output)
             elif HELP.get("VCBot") and plug in HELP["VCBot"]:
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["VCBot"][plug]:
                     output += i
-                output += "\n© @Teamoreo"
+                output += "\n© @OreoSupportChat"
                 await ore.eor(output)
             else:
                 try:
@@ -62,7 +62,7 @@ async def _help(ore):
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
-                    x += "\n© @Teamoreo"
+                    x += "\n© @OreoSupportChat"
                     await ore.eor(x)
                 except BaseException:
                     file = None
@@ -97,7 +97,7 @@ async def _help(ore):
                     elif HELP.get("VCBot") and file in HELP["VCBot"]:
                         for i in HELP["VCBot"][file]:
                             output += i
-                    output += "\n© @Teamoreo"
+                    output += "\n© @OreoSupportChat"
                     await ore.eor(output)
         except BaseException as er:
             LOGS.exception(er)
