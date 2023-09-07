@@ -61,7 +61,7 @@ async def semd_plugin(ore):
 
     paste = await pastee(path)
     caption = f"<b>>> </b><code>{path}</code> \n{paste} \n" \
-        f"© <a href='{repo}'>Team OreO</a>"
+        f"© <a href='{repo}'>Bad_OreO</a>"
     try:
         await ore.client.send_file(
             ore.chat_id, path,
