@@ -543,7 +543,7 @@ def telegraph_client():
     profile_url = (
         f"https://t.me/{oreo_bot.me.username}"
         if oreo_bot.me.username
-        else "https://t.me/TeamOreo"
+        else "https://t.me/OreoSupportChat"
     )
     try:
         TelegraphClient.create_account(
