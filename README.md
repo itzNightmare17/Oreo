@@ -24,7 +24,7 @@
 ### Local / VPS Deploy
 - Get your [Necessary Variables](#Necessary-Variables)
 - Clone the repository:    
-  - `git clone https://github.com/itzNightmare17/OREO oreo`
+  - `git clone https://github.com/itzNightmare17/Oreo oreo`
 - Go to the cloned folder:
   - `cd oreo`
 - Create a virtual env:      
