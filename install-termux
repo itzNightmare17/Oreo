@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# OREO - UserBot
+
+if [ -d "resources" ]
+then
+    echo "Current directory Identified.."
+else
+    apt install git -y
+    git clone https://github.com/itzNightmare17/OREO
+    cd OREO
+fi
+bash resources/startup/termux.sh

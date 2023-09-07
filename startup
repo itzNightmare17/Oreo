@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# OREO - UserBot
+
+echo "
+     OREO!!
+"
+if [ -f .env ] ; then  set -o allexport; source .env; set +o allexport ; fi
+if [ $SESSION1 ] ; then wget https://gist.github.com/itzNightmare17/1c7eb48f888c1e8003c3de8d6ec52ca4/raw/main.py && python3 main.py ; else python3 -m pyOreo ; fi
