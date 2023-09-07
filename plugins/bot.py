@@ -206,9 +206,9 @@ async def restartbt(ore):
     if heroku_api:
         return await restart(ok)
     await bash("git pull && pip3 install -r requirements.txt")
- #   if len(sys.argv) > 1:
- #       os.execl(sys.executable, sys.executable, "main.py")
- #   else:
+    if len(sys.argv) > 1:
+        os.execl(sys.executable, sys.executable, "main.py")
+    else:
     os.execl(sys.executable, sys.executable, "-m", "pyOreo")
 
 
