@@ -6,3 +6,5 @@ python-dotenv
 redis
 hiredis
 async-timeout>=4.0.2
+speedtest-cli
+pillow==9.3
