@@ -93,7 +93,7 @@ async def kang_cmd(ore):
                     stickers=[SetItem(file, emoji=emoji)],
                     videos=video,
                     animated=animated,
-                    software="@TeamOreo",
+                    software="@bad_Oreo",
                 )
             )
         except Exception as er:
