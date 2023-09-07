@@ -209,7 +209,7 @@ async def restartbt(ore):
     if len(sys.argv) > 1:
         os.execl(sys.executable, sys.executable, "main.py")
     else:
-    os.execl(sys.executable, sys.executable, "-m", "pyOreo")
+        os.execl(sys.executable, sys.executable, "-m", "pyOreo")
 
 
 @oreo_cmd(
