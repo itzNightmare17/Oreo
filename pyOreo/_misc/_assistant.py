@@ -20,7 +20,7 @@ MSG = f"""
 **Oreo - UserBot**
 ➖➖➖➖➖➖➖➖➖➖
 **Owner**: [{OWNER}](tg://user?id={oreo_bot.uid})
-**Support**: @TeamOreo
+**Support**: @OreoSupportChat
 ➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -94,8 +94,8 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                 res = [
                     await event.builder.article(
                         title="Oreo Userbot",
-                        url="https://t.me/TeamOreo",
-                        description="(c) TeamOreo",
+                        url="https://t.me/OreoSupportChat",
+                        description="(c) OreO",
                         text=MSG,
                         thumb=InputWebDocument(
                             "https://graph.org/file/bc4a4a0a03901b6baeb08.jpg",
