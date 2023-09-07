@@ -1,9 +1,5 @@
 # Oreo - UserBot
 
- 
-                                                                    
-                                                      
-                                                                                                                     
 
 from . import *
 
@@ -14,7 +10,7 @@ START = """
 ✘  /help : Get This Message.
 ✘  /repo : Get Bot's Repo..
 
-🧑‍💻 Join **@TeamOreo**
+🧑‍💻 Join **@OreoSupportChat**
 """
 
 ADMINTOOLS = """✘ **AdminTools** ✘
