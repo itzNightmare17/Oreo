@@ -1,6 +1,6 @@
 # oreo - UserBot
 
-FROM itzNightmare17/oreo:main
+FROM itznightmare17/oreo:main
 
 # set timezone
 ENV TZ=Asia/Kolkata
