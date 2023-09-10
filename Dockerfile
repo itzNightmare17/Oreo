@@ -1,6 +1,6 @@
 # Oreo - UserBot
 
-FROM itzNightmare17/oreo:main
+FROM itznightmare17/oreo:main
 
 # set timezone
 ENV TZ=Asia/Kolkata
@@ -11,7 +11,7 @@ COPY installer.sh .
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/itzNightmare17"
+WORKDIR "/root/itznightmare17"
 
 # start the bot.
 CMD ["bash", "startup"]
