@@ -76,4 +76,5 @@ OreO is licensed under [GNU Affero General Public License](https://www.gnu.org/l
 * [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
 * [MarshalX](https://github.com/MarshalX) for [PyTgCalls.](https://github.com/MarshalX/tgcalls)
 
-> Made with 💕 by [@bad_OreO](https://t.me/bad_oreo).
+> Made with 💕 by [@bad_OreO](https://t.me/bad_oreo)
+
