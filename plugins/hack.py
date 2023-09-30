@@ -16,7 +16,7 @@ from . import *
 
 @oreo_cmd(pattern="hack")
 async def _(event):
-    animation_interval = 0.6
+    animation_interval = 0.1  #0.6
     animation_ttl = range(0, 11)
     xx = await event.eor("Installing..")
     animation_chars = [
@@ -36,7 +36,7 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await xx.edit(animation_chars[i % 11])
     await asyncio.sleep(2)
-    animation_interval = 0.6
+    animation_interval = 0.1 #0.6
     animation_ttl = range(0, 14)
     await xx.edit("`Connecting nd getting combined token from my.telegram.org`")
     await asyncio.sleep(1)
